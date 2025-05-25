@@ -1,0 +1,24 @@
+body {
+    background-color: grey;
+    color: white;
+}
+.success-message {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  max-width: 400px;
+}
+
+.page-title {
+  font-family: 'Copperplate', 'Papyrus', 'Georgia', serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+}
