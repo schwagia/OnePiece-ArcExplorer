@@ -5,7 +5,7 @@ export async function load() {
 
   return {
     favorites: sagas.map(saga => ({
-      _id: saga._id, // ← 🔥 WICHTIG!
+      _id: saga._id,
       saga: saga.title,
       episode: saga.favorite_episode,
       poster: saga.poster_path

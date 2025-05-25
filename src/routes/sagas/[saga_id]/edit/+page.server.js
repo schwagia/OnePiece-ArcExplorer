@@ -1,13 +1,11 @@
 import db from '$lib/db.js';
 
-/** @type {import('./$types').PageServerLoad} */
 export async function load({ params }) {
   const id = params.saga_id;
   const saga = await db.getSaga(id);
   return { saga };
 }
 
-/** @type {import('./$types').Actions} */
 export const actions = {
   update: async ({ request, params }) => {
     const data = await request.formData();

@@ -12,7 +12,7 @@ export const actions = {
       crew: data.get("crew"),
       logo_path: data.get("logo_path"),
     };
-    await db.createCharacter(character); // <-- Korrigiert
+    await db.createCharacter(character);
     return { success: true };
   },
 };

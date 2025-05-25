@@ -100,7 +100,6 @@
     overflow: hidden;
     margin-top: 1.5rem;
     border-radius: 1rem;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   }
 
   .hero-video-wrapper iframe {
