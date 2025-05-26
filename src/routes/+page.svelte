@@ -24,7 +24,7 @@
     <h2>✨ Top-Features</h2>
 
     <div class="row gy-4 align-items-center">
-      <!-- Linke Spalte: Features -->
+      
       <div class="col-lg-8">
         <div class="row gy-4">
           <div class="col-md-4">

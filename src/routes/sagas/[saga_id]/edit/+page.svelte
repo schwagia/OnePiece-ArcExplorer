@@ -3,7 +3,7 @@
   let saga = data.saga;
 </script>
 
-<h1 class="text-whitetitle">Edit Saga</h1>
+<h1>Edit Saga</h1>
 
 <div class="mb-3">
 <form method="POST" action="?/update" class="mt-4">
@@ -89,7 +89,7 @@
   </div>
 
   <div class="mb-3">
-    <label class="form-label" for="arcs">Arcs (Mehrfach möglich)</label>
+    <label class="form-label" for="arcs">Arcs</label>
     {#each saga.arcs as arc}
       <input name="arcs" class="form-control mb-1" value={arc} />
     {/each}
